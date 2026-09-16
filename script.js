@@ -9,7 +9,7 @@ const powerButton = document.getElementById("powerButton");
 function updateDisplay() {
     scoreDisplay.innerText = score;
 
-    if (score >= 20) {
+    if (score >= 30) {
         title.innerText = "You win!";
     }
 }
