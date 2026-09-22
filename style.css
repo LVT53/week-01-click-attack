@@ -8,6 +8,10 @@ body {
     line-height: 1.5;
 }
 
+h2 {
+  color: red;
+}
+
 button, input {
     font: inherit;
     padding: 0.7rem 1rem;
