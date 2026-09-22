@@ -4,12 +4,30 @@ body {
     font-family: Arial, sans-serif;
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 10rem 0;
     line-height: 1.5;
+    background-color: #1c003d;
+    color: #f3e6ff;
+    text-align: center;
+}
+
+h1 {
+  font-size: 7rem;
+  margin: 0 0 2rem 0;
+  font-family: Impact, sans-serif;
 }
 
 h2 {
-  color: red;
+  font-size: 2rem;
+  margin: 0 0 .4rem 0;
+}
+
+.hero {
+  margin-bottom: 6rem;
+}
+
+.hero p {
+  margin: 0;
 }
 
 button, input {
@@ -17,6 +35,14 @@ button, input {
     padding: 0.7rem 1rem;
     margin: 0.25rem;
     border-radius: 1rem;
+    border: none;
+    background-color: #f3e6ff;
+    transition: ease-in all 100ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b5adc3;
 }
 
 .card {
